@@ -1,0 +1,415 @@
+/* Reset CSS */
+body {
+  margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefa; /* Baby Powder rengi (#fefefa) */
+    overflow-x: hidden;
+
+    
+  }
+  
+  /* Menu Styles */
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    width: 100%; 
+    height: 100px;
+    background-color:#fefefa; 
+    z-index: 9999; 
+    top: -800px;
+    
+  }
+
+  .logo img {
+    display: block;
+      margin: 0 auto;
+    max-width: 150%;
+ border-radius:20px;
+   
+    
+  }
+  .logo-container {
+    display: inline-block; 
+    border-radius: 50%; 
+    overflow: hidden; 
+  }
+  
+  
+  .menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+   
+  }
+  
+  .menu-list li {
+    margin: 0 5px;
+    
+}
+
+  
+  .menu-list li a {
+    color: #050000;
+    text-decoration: none;
+  }
+  
+  .menu-list li a:hover {
+    
+    color: #bfa9a9;
+  } 
+
+
+.content a{
+  display: flex;
+  justify-content:center ;
+}
+
+
+
+
+ /* Main Content Styles */
+
+.content a img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto; 
+  height: auto; 
+  float: right;
+  margin-top: 25px;
+  margin-right: 200px; 
+  margin-left: 200px; 
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+  border-radius: 16px;
+  padding: 5px;
+ 
+}
+
+
+  
+  
+ /* Right Image Styles */
+  .right-image {
+    position: relative;
+    margin-left: 5%;
+    top: -20%;
+    clear: right;
+ 
+
+  }
+
+  .right-image a img {
+    margin-top: 30px;
+  }
+  
+  
+/* "Hakkımızda" Styles */
+ .box-section {
+  background-color: #fefefa;
+  padding: 10px;
+  text-align: center;
+  margin: 10px auto;
+  max-width: 900px;
+ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+ border-radius: 16px ;
+  z-index: 1; 
+ 
+}
+  
+  .main-content {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .school-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #050000;
+  }
+  
+  .school-description {
+    font-size: 18px;
+    color: #050000;
+  }
+  
+  
+/* "Galeri" Styles */
+.box-section2 {
+background-color: #fefefa;
+padding: 10px;
+text-align: center;
+margin: 10px auto;
+max-width: 900px;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+border-radius: 16px;
+z-index: 1;
+margin-top: 79px; 
+}
+
+.main-content2 {
+text-align: center;
+padding: 50px;
+background-color: rgba(255, 255, 255, 0.8);
+max-width: 100%;
+margin-top: px; 
+}
+
+.school-title2 {
+font-size: 36px;
+font-weight: bold;
+color: #050000;
+}
+
+.gallery-container {
+display: flex; 
+flex-wrap: wrap; 
+justify-content: space-between; 
+margin: 0;
+padding: 0;
+}
+
+.gallery-container img {
+width: 40%; 
+height: auto;
+border-radius: 8px;
+}
+
+.read-more {
+text-align: right;
+}
+
+.main-content2 {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 100%;
+  margin-top: px; 
+}
+
+
+.school-title2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #050000;
+}
+
+
+
+
+
+
+/* "İletişim" Styles */
+  .box-section4 {
+    background-color: #fefefa;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 1000px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+    border-radius: 16px;
+    z-index: 1;
+    margin-top: 79px; 
+  }
+
+.logo {
+width: 80px;
+height: 80px; 
+border-radius: 50%;
+margin-top: 20px; 
+}
+
+.contact-info,
+.social-media {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+margin-left: 20px; 
+}
+
+.info {
+font-size: 14px; 
+font-weight: normal; 
+}
+
+.social-icon {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin: 5px 10px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/* FOOTER Styles */
+.footer {
+background-color: #cecac3;
+padding: 20px;
+text-align: center;
+font-size: 14px;
+color: #0b0b0b;
+}
+
+.footer-content {
+max-width: 1200px;
+margin: 0 auto;
+}
+/* POPUP Styles */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  z-index: 10; 
+  display: none;
+  }
+  
+  .popup img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  }
+  
+  .popup p {
+  text-align: center;
+  }
+  .popup-description {
+    
+    margin-left: 10px;
+    }
+    
+    .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 5px;
+    }
+  
+   /* OVERLAY Styles */ 
+  .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5; /* Z-index değeri artırıldı */
+  display: none;
+  }
+  
+
+
+  
+ /* Right Image Styles */
+  .right-image {
+    position: relative;
+    margin-left: 5%;
+    top: -20%;
+    clear: right;
+ 
+
+  }
+
+  .right-image a img {
+    margin-top: 30px;
+  }
+  
+  
+/* MEDİA KISMI MENÜ VE ANASAYFA FOTOĞRAF  İÇİN */
+
+
+
+/* Mobile style */
+@media (max-width: 768px) {
+ 
+  .menu {
+   
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    
+  }
+  
+
+@media (max-width: 768px) {
+  .menu-list li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu {
+   
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    
+  }
+  
+  .menu-list li:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px; 
+
+    background-color: black; 
+    
+    margin: 0 5px; 
+    
+  }
+  }
+
+
+.logo img {
+  width: 130%; 
+  
+  height: auto;
+}
+
+
+
+.right-image {
+  position: static;
+  margin-left: 0;
+  top: 0;
+  float: none; 
+  
+}
+
+  .box-section,
+  .box-section2,
+  .box-section4 {
+    margin-top: 0;
+  }
+
+  .school-title,
+  .school-description,
+  .school-title2,
+  .info,
+  .footer {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .content a img {
+    width: 100%;
+    height: auto;
+    max-width: 1100px;
+    max-height: 500px;
+  }
+
+
+}
